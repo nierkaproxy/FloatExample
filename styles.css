@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    height: 20%;
+    background-color: rgb(161, 41, 41);
+}
+nav, footer{
+    height: 10%;
+    background-color: rgb(161, 41, 41);
+}
+
+aside{
+    height: 60%;
+    background-color: rgb(161, 41, 41);
+    width: 20%;
+    float: left;
+}
+main{
+    height: 60%;
+    background-color: rgb(161, 41, 41);
+    width: 60%;
+    float: left;
+}
+
+#next{
+    float: right;
+}
+footer{
+    clear: both;
+}
